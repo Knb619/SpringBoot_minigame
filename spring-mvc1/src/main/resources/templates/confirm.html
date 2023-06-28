@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>確認</title>
+	</head>
+	<body>
+		<span th:inline = "text">
+			氏名： [[${user.name}]]<br>
+			E-Mail： [[${user.email}]]<br>
+			年齢： [[${user.age}]]<br>
+		</span>
+	</body>
+</html>
